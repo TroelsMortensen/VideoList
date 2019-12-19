@@ -14,7 +14,7 @@ public class Generator {
     }
 
     private void generateIndexHTML(String treeStructureHTML) throws IOException {
-        File template = new File("pages/template.html");
+        File template = new File("content/template.html");
 
         FileReader fr = new FileReader(template);
         BufferedReader br = new BufferedReader(fr);

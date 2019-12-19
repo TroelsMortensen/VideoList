@@ -8,7 +8,7 @@ public class TreeStructureBuilder {
 
     public String buildTree() {
         result = new StringBuilder();
-        File contentFolder = new File("pages/content");
+        File contentFolder = new File("content/nested");
         int indent = 0;
         writeRoot(contentFolder, indent);
         return result.toString();
