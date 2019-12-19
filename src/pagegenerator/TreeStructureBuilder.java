@@ -57,7 +57,7 @@ public class TreeStructureBuilder {
     private void handleHTMLSnippet(File file) {
         append("<li>");
         {
-            append("<span class=\"caret\" style='font-style:italic; font-size:medium'>Nested components as lists</span>");
+            append("<span class=\"caret\" style='font-style:italic; font-size:medium'>"+file.getName().replace(".html", "")+"</span>");
             {
                 append("<div class=\"nested\">");
                 {
