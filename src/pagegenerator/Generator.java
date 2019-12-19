@@ -19,7 +19,7 @@ public class Generator {
         FileReader fr = new FileReader(template);
         BufferedReader br = new BufferedReader(fr);
 
-        PrintWriter pw = new PrintWriter(new FileWriter("pages/index.html"));
+        PrintWriter pw = new PrintWriter(new FileWriter("index.html"));
         String line;
 
         while((line=br.readLine()) != null) {
