@@ -23,7 +23,7 @@ public class Generator {
         String line;
 
         while((line=br.readLine()) != null) {
-            if(line.equals("<div id=\"Content\"/>")) {
+            if(line.equals("##content##")) {
                 System.out.println("Inserting tree");
                 line = treeStructureHTML;
             }
